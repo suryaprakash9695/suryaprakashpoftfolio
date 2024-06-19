@@ -100,9 +100,20 @@ header.shadow {
   align-items: center;
   gap: 1rem;
 }
-.home-img {
+/* .home-img {
   order: 3;
   
+} */
+.home-img {
+    order: 3;
+    border: 7px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --bg-color: red;
+    background: linear-gradient(45deg, red, transparent);
 }
 .home-img img {
   width: 100%;
