@@ -100,20 +100,9 @@ header.shadow {
   align-items: center;
   gap: 1rem;
 }
-/* .home-img {
+.home-img {
   order: 3;
   
-} */
-.home-img {
-    order: 3;
-    border: 7px solid black;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    --bg-color: red;
-    background: linear-gradient(45deg, red, transparent);
 }
 .home-img img {
   width: 100%;
@@ -166,7 +155,7 @@ header.shadow {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
  
 .about-img img {
@@ -177,7 +166,7 @@ header.shadow {
   font-size: var(--p-font);
   font-weight: 400;
   text-align: justify;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 .information {
   margin: 1rem 0 1.4rem;
@@ -241,13 +230,16 @@ span {
   width: 94%;
 }
 .css-bar {
-  width: 84%;
+  width: 80%;
 }
 .js-bar {
-  width: 74%;
+  width: 60%;
 }
-.react-bar {
-  width: 80%;
+.JAVA-bar {
+  width: 70%;
+}
+.PHP-bar {
+  width: 60%;
 }
 .services-content {
   display: grid;
